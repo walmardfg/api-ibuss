@@ -26,7 +26,7 @@ SECRET_KEY = 'e$-fyx2(acs$+1&z!-kk4c)_o%c+afbtq_9ooz34_yw-u-vchb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
+ALLOWED_HOSTS = ['https://ibuss-backend.herokuapp.com']
 
 # Application definition
 
