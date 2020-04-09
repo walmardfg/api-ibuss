@@ -91,14 +91,14 @@ WSGI_APPLICATION = 'ibuss.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
+DDATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'ibussiness',
-        'USER': 'name',
-        'PASSWORD': '',
+        'USER': 'postgres',
+        'PASSWORD': 'wdfg',
         'HOST': 'localhost',
-        'PORT': ,
+        'PORT': 5432,
 
     }
 }
