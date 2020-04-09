@@ -34,7 +34,7 @@ STATICFILES_DIRS = (
 SECRET_KEY = 'e$-fyx2(acs$+1&z!-kk4c)_o%c+afbtq_9ooz34_yw-u-vchb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['https://api-ibuss.herokuapp.com']
 
