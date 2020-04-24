@@ -46,6 +46,14 @@ urlpatterns = [
     path('parametros/<int:pk>',include('maestros.parametros.urls')), #new
     path('',include('maestros.companias.urls')), #new
     path('companias/<int:pk>',include('maestros.companias.urls')), #new
+    path('',include('maestros.grupocentrocostos.urls')), #new
+    path('grupocentrocostos/<int:pk>',include('maestros.grupocentrocostos.urls')), #new
+    path('',include('maestros.subgrupocentrocostos.urls')), #new
+    path('subgrupocentrocostos/<int:pk>',include('maestros.subgrupocentrocostos.urls')), #new
+    path('',include('maestros.sucursales.urls')), #new
+    path('sucursales/<int:pk>',include('maestros.sucursales.urls')), #new
+    path('',include('maestros.direcciones.urls')), #new
+    path('direcciones/<int:pk>',include('maestros.direcciones.urls')), #new
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 
